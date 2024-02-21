@@ -5,8 +5,8 @@ parcelable SehSignalBar {
     int cdmaLevel;
     int evdoLevel;
     int gsmLevel;
+    int wcdmaLevel;
+    int tdscdmaLevel;
     int lteLevel;
     int nrLevel;
-    int tdscdmaLevel;
-    int wcdmaLevel;
 }
