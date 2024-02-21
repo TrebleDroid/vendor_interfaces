@@ -39,7 +39,7 @@ interface ISehRadioNetwork {
   oneway void setImsCallList();
   oneway void setNrMode(int serial, int mode, boolean force);
   oneway void setPreferredNetworkList();
-  oneway void setResponseFunctions(in vendor.samsung.hardware.radio.network.ISehRadioNetworkResponse response, in vendor.samsung.hardware.radio.network.ISehRadioNetworkResponse indication);
+  oneway void setResponseFunctions(in vendor.samsung.hardware.radio.network.ISehRadioNetworkResponse response, in vendor.samsung.hardware.radio.network.ISehRadioNetworkIndication indication);
   oneway void setRoamingNetworkInfoViaBLE();
   oneway void setScanResultViaBLE();
   oneway void setVendorSpecificConfiguration(int serial, in vendor.samsung.hardware.radio.network.SehVendorConfiguration[] configurations);

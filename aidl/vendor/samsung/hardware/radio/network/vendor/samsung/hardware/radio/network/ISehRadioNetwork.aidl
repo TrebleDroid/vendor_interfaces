@@ -26,7 +26,7 @@ interface ISehRadioNetwork {
     oneway void setImsCallList();
     oneway void setNrMode(int serial, int mode, boolean force);
     oneway void setPreferredNetworkList();
-    oneway void setResponseFunctions(in ISehRadioNetworkResponse response, in ISehRadioNetworkResponse indication);
+    oneway void setResponseFunctions(in ISehRadioNetworkResponse response, in ISehRadioNetworkIndication indication);
     oneway void setRoamingNetworkInfoViaBLE();
     oneway void setScanResultViaBLE();
     oneway void setVendorSpecificConfiguration(int serial, in SehVendorConfiguration[] configurations);
