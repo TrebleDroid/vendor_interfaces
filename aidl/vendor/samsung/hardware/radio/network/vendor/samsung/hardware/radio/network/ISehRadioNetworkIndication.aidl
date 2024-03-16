@@ -19,6 +19,7 @@ interface ISehRadioNetworkIndication {
     oneway void needTurnOnRadioIndication(int type);
     oneway void nrBearerAllocationChanged(int type, int status);
     oneway void nrIconTypeChanged(int type, int nrIconType);
+    oneway void nrNetworkTypeAdded(int type, int nrNetworkType);
     oneway void roamingNetworkScanIsRequested(int type, in byte[] scanData);
     oneway void signalLevelInfoChanged(int type, in SehSignalBar signalBarInfo);
     oneway void vendorConfigurationChanged(int type, in SehVendorConfiguration[] configurations);
