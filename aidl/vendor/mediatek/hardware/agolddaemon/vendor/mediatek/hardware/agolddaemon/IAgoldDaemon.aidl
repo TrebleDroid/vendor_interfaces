@@ -13,7 +13,7 @@ void WriteIntDataToIoCtrl(in byte[] a, int b);
 void WriteStringDataToIoCtrl(String a, int b);
 boolean checkGoogleKey();
 boolean checkTeeKey();
-void cmd(String a, IAgoldDaemon cb);
+void cmd(String a, IAgoldDaemonCallback cb);
 String getCameraClientPackageName();
 String getNotGsi();
 String readSysFile(String path);

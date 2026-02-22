@@ -28,7 +28,7 @@ interface IAgoldDaemon {
   void WriteStringDataToIoCtrl(String a, int b);
   boolean checkGoogleKey();
   boolean checkTeeKey();
-  void cmd(String a, vendor.mediatek.hardware.agolddaemon.IAgoldDaemon cb);
+  void cmd(String a, vendor.mediatek.hardware.agolddaemon.IAgoldDaemonCallback cb);
   String getCameraClientPackageName();
   String getNotGsi();
   String readSysFile(String path);
